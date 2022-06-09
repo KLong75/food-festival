@@ -1,7 +1,8 @@
 const webpack = require("webpack");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
-const path = require("path");
 const WebpackPwaManifest = require("webpack-pwa-manifest");
+const path = require("path");
+
 
 const config = {
   entry: {
